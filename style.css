@@ -7,13 +7,14 @@
 }
 body{
     background-color: white;
-    background-size: auto;
+
 }
 #page {
     box-sizing: border-box;
     width: 1120px;
     padding: 0px;
     margin: 88px auto;
+    margin-left: 80px auto;
 }
 img{
     height: 660px auto;
@@ -31,6 +32,25 @@ section + section {
 #proximaViagem img + h3 {
     margin-top: 24px;
 }
+#Historia h2 + h4 {
+    margin-top: 8px;
+}
+#Historia h4 + p {
+    margin-top: 8px;
+}
+#Historia p + ol {
+    margin-top: 64px;
+}
+#Historia img + li {
+    margin-top: 20px;
+}
+#Historia p + img {
+    margin-top: 48px;
+}
+#Historia ol + p {
+    margin-top: 80px;
+}
+
 img {
     border-radius: 28px;
 }
@@ -45,7 +65,8 @@ h2 {
     font-weight: bold;
 }
 h3{
-    
+    width: 1120px;
+    margin-left: 150px;
     text-align: center;
     font-weight: normal;
     font-size: 16px;
@@ -61,6 +82,8 @@ li{
     font-weight: bold;
 }
 p{
+    text-align: left;
+    width: 1120px;
     font-size: 16px;
 }
 ul{
@@ -75,14 +98,17 @@ li:nth-child(3) {
     color: blue;
     font-size: 16px;
 }
-li:nth-child(5) {
+li:nth-child(4) {
     list-style-type:disc;
     color: #E5245E;
     font-size: 16px;
 }
-li:nth-child(7) {
+li:nth-child(5) {
     list-style-type:disc;
     color: #E95E10;
     font-size: 16px;
 }
+}
+footer {
+    text-align: center;
 }
