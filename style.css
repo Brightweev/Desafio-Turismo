@@ -7,6 +7,7 @@
 }
 body{
     background-color: white;
+    
 
 }
 #page {
@@ -38,10 +39,13 @@ section + section {
 #Historia h4 + p {
     margin-top: 8px;
 }
+#Historia h5 + p {
+    margin-top: 8px;
+}
 #Historia p + ol {
     margin-top: 64px;
 }
-#Historia img + li {
+#Historia img + h5 {
     margin-top: 20px;
 }
 #Historia p + img {
@@ -76,8 +80,14 @@ h4{
     font-size: 32px;
     font-weight: bold;
 }
+h5{
+    margin-left: 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
 
 li{
+    margin-left: 29px;
     font-size: 28px;
     font-weight: bold;
 }
@@ -93,22 +103,23 @@ li:nth-child(1) {
     font-size: 16px;
     text-align: 0;
 }
-li:nth-child(3) {
+li:nth-child(2) {
     list-style-type:disc;
     color: blue;
     font-size: 16px;
 }
-li:nth-child(4) {
+li:nth-child(3) {
     list-style-type:disc;
     color: #E5245E;
     font-size: 16px;
 }
-li:nth-child(5) {
+li:nth-child(4) {
     list-style-type:disc;
     color: #E95E10;
     font-size: 16px;
 }
 }
 footer {
+    margin-left: 150px;
     text-align: center;
 }
